@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+h1,h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Lexend Deca", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.hero-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 920px;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.container .col-1 {
+    background-color: #E28625;
+    padding: 48px;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+} 
+
+.container .col-1 img {
+    width: 64px;
+    height: 40px;
+}
+
+.container .col-1 button {
+    margin-top: 80px;
+    border-radius: 20px;
+    padding: 12px 31px;
+    border: none;
+    color: #E28625;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.container .col-1 button:hover {
+    background-color: #E28625;
+    color: white;
+    border: 1px solid white;
+}
+
+.container .col-2 {
+    background-color: #006971;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container .col-2 button:hover {
+    background-color: #006971;
+    color: white;
+    border: 1px solid white;
+}
+
+.container .col-2 img {
+    width: 64px;
+    height: 40px;
+}
+
+.container .col-2 button {
+    margin-top: 80px;
+    border-radius: 20px;
+    padding: 12px 31px;
+    border: none;
+    color: #006971;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.container .col-3 {
+    background-color: #004140;
+    padding: 48px;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container .col-3 button:hover {
+    background-color: #004140;
+    color: white;
+    border: 1px solid white;
+}
+
+.container .col-3 img {
+    width: 64px;
+    height: 40px;
+}
+
+.container .col-3 button {
+    margin-top: 80px;
+    border-radius: 20px;
+    padding: 12px 31px;
+    border: none;
+    color: #004140;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+
+@media screen and (max-width: 768px)  {
+    
+h1,h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Lexend Deca", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0px 60px 0 0;
+}
+
+.hero-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 170px;
+}
+
+.container {
+    max-width: 920px;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container .col-1 {
+    background-color: #E28625;
+    padding: 48px;
+    border-radius: 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+} 
+
+.container .col-1 img {
+    width: 64px;
+    height: 40px;
+}
+
+.container .col-1 button {
+    margin-top: 0px;
+    border-radius: 20px;
+    padding: 12px 31px;
+    border: none;
+    color: #E28625;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid white;
+    width: fit-content;
+}
+
+.container .col-1 button:hover {
+    background-color: #E28625;
+    color: white;
+    border: 1px solid white;
+}
+
+.container .col-2 {
+    background-color: #006971;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container .col-2 button:hover {
+    background-color: #006971;
+    color: white;
+    border: 1px solid white;
+}
+
+.container .col-2 img {
+    width: 64px;
+    height: 40px;
+}
+
+.container .col-2 button {
+    margin-top: 0px;
+    border-radius: 20px;
+    padding: 12px 31px;
+    border: none;
+    color: #006971;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid white;
+    width: fit-content;
+}
+
+.container .col-3 {
+    background-color: #004140;
+    padding: 48px;
+    border-radius: 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container .col-3 button:hover {
+    background-color: #004140;
+    color: white;
+    border: 1px solid white;
+}
+
+.container .col-3 img {
+    width: 64px;
+    height: 40px;
+}
+
+.container .col-3 button {
+    margin-top: 0px;
+    border-radius: 20px;
+    padding: 12px 31px;
+    border: none;
+    color: #004140;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid white;
+    width: fit-content;
+}
+
+}
+
